@@ -6,35 +6,45 @@
 
 }
 
-h1, h2, #wordTheme, #solveButton, #newGameButton, .listWord {
+#wordTheme, #solveButton, #newGameButton, .listWord {
 
 	padding: 5px;
 
 }
 
-h1, h2, #wordTheme, #solveButton, #newGameButton {
+#wordTheme, #solveButton, #newGameButton {
 
 	border: 2px black solid;
 	border-radius: 8px;
 
 } 
 
-h1, h2, .cell, #wordTheme, #wordlist {
+.cell, #wordTheme, #wordlist {
 
 	background-color: white;
 
 }
 
-h1, h2 {
 
-	margin: 10px auto 10px auto;
-	display: table;
-
-}
 
 body {
 
-	background-color: #EAF7FB;
+	background-color: #09096839;
+
+}
+
+.header {
+
+	
+	background-color: white;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px auto 10px auto;
+	border: 2px black solid;
+	border-radius: 8px;
+	
 
 }
 
@@ -50,6 +60,9 @@ body {
 	border: 2px black solid;
 	display: table;
 	min-width: 600px;
+	border-radius: 8px;
+	padding:1%;
+	background-color: #ffffff;
 
 }
 
@@ -114,6 +127,8 @@ body {
 	min-width: 600px;
 	font-size: 17px;
 	text-align: center;
+	border-radius: 8px;
+	padding:1%;
 	
 }
 
@@ -138,7 +153,7 @@ body {
 
 #solveButton, #newGameButton {
 
-	background-color: rgb(199, 226, 201);
+	background-color: rgb(255, 254, 226);
 	margin: 20px auto 20px auto;
 	display: block;
 	outline: 0;
@@ -151,8 +166,8 @@ body {
 @font-face {
 
 	font-family: "Moon";
-	src: url("../fonts/Moon-Regular.woff2") format("woff2"),
-		 url("../fonts/Moon-Regular.woff") format("woff");
+	src: url("../assets/fonts/Moon-Regular.woff2") format("woff2"),
+		 url("../assets/fonts/Moon-Regular.woff") format("woff");
 	font-weight: normal;
 
 }
@@ -160,8 +175,8 @@ body {
 @font-face {
 
 	font-family: "Moon";
-	src: url("../fonts/Moon-Bold.woff2") format("woff2"),
-		 url("../fonts/Moon-Bold.woff") format("woff");
+	src: url("../assets/fonts/Moon-Bold.woff2") format("woff2"),
+		 url("../assets/fonts/Moon-Bold.woff") format("woff");
 	font-weight: bold;
 
 }
