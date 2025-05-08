@@ -1,7 +1,7 @@
 * {
 	text-align: center;
-	font-family: "Klee One", Arial, sans serif;
-	font-weight: bold;
+	font-family: "Moon", Arial, sans serif;
+	font-weight: normal;
 }
 
 #wordTheme,
@@ -33,7 +33,7 @@ body {
 	color: rgb(0, 0, 0);
 	font-size: 20px;
 	font-weight: bold;
-	padding: 0px;
+	padding: 10px;
 	margin: 10px auto 10px auto;
 	border: 2px black solid;
 	border-radius: 8px;
@@ -130,69 +130,15 @@ body {
 }
 
 @font-face {
-	font-family: "Klee One";
-	src: url("../../../font/kleeone_regular.ttf") format("truetype");
-	/*src: url("../assets/fonts/Moon-Regular.woff2") format("woff2"),
-		 url("../assets/fonts/Moon-Regular.woff") format("woff");*/
+	font-family: "Moon";
+	src: url("../assets/fonts/Moon-Regular.woff2") format("woff2"),
+		url("../assets/fonts/Moon-Regular.woff") format("woff");
 	font-weight: normal;
 }
 
 @font-face {
-	font-family: "Klee One";
-	src: url("../../../font/kleeone_semibold.ttf") format("truetype");
-	/*src: url("../assets/fonts/Moon-Bold.woff2") format("woff2"),
-		 url("../assets/fonts/Moon-Bold.woff") format("woff");*/
+	font-family: "Moon";
+	src: url("../assets/fonts/Moon-Bold.woff2") format("woff2"),
+		url("../assets/fonts/Moon-Bold.woff") format("woff");
 	font-weight: bold;
-}
-
-#container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-start;
-	max-width: 100vw;
-}
-
-.wordboardcontainer {
-	display: flex;
-	font-family: "Klee One", Courier, monospace;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	flex: 1;
-	text-align: center;
-	vertical-align: middle;
-}
-
-.wordlistcontainer {
-	display: flex;
-	text-align: center;
-	vertical-align: middle;
-	flex-direction: column;
-	flex: 1;
-	margin-left: 0px; /* Adjust the margin as needed */
-}
-
-/* --- Media Queries --- */
-
-/* Landscape Orientation (Default styles seem landscape-first, so this might refine) */
-@media screen and (orientation: landscape) {
-	/* Styles specific to landscape */
-	/* Example: You might adjust grid columns or container sizes here */
-	/* The original rule is kept for reference, but check if #container base styles suffice */
-	#container {
-		height: 100vh; /* Full height of viewport */
-		/* width: 100vw; */ /* Already set */
-		/* max-width: 177.77vh; */ /* Aspect ratio constraint using vh */
-		/* height: 56.25vw; */ /* Already set */
-		/* max-height: 100vh; */ /* Already set */
-	}
-}
-
-/* Smaller Screens (Example: Tablets) */ /* --- Mobile Styles (screens <= 768px) --- and (orientation: portrait) and */
-@media screen and (max-width: 768px) {
-	#container {
-
-		flex-direction: column;
-
-	}
 }
