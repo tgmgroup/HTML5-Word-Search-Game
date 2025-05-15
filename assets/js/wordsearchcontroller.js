@@ -25,11 +25,11 @@ function WordSearchController(
 		//--- This is the array containing the words to search for. You need a 5x4 array of words (20 words) ---//
 
 		"Word List": [
-			["Jewish", "instead of", "round", "presents"],
-			["aluminum foil", "wrapper", "log", "Yule"],
-			["part of", "kind of", "poop", "gelt"],
-			["salty", "stick", "nougat", "Christmas"],
-			["Hannukkah", "Menorah", "jelly donuts", "money"],
+			["words", "are", "part", "of"],
+			["our", "sentences", "and", "you"],
+			["can use", "multiple", "words", "in"],
+			["each", "word list object", "but", "only"],
+			["letters", "show up", "in", "the search"],
 		],
 
 		//--- This is the end of the array. Make sure you have 20 words or the game finished function will not work. ---//
